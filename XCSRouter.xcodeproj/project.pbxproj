@@ -23,6 +23,7 @@
 		A877A913219D06E70087B687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877A911219D06E70087B687 /* LaunchScreen.storyboard */; };
 		A877A916219D06E70087B687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A877A915219D06E70087B687 /* main.m */; };
 		A877A949219D25370087B687 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = A877A948219D25370087B687 /* SecondController.m */; };
+		A88BBDD424A1F5CC00635D5F /* NSObject+XCS.m in Sources */ = {isa = PBXBuildFile; fileRef = A88BBDD324A1F5CC00635D5F /* NSObject+XCS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		A877A921219D06E70087B687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A877A947219D25370087B687 /* SecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
 		A877A948219D25370087B687 /* SecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		A88BBDD224A1F5CC00635D5F /* NSObject+XCS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XCS.h"; sourceTree = "<group>"; };
+		A88BBDD324A1F5CC00635D5F /* NSObject+XCS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XCS.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 		A877A905219D06E60087B687 /* XCSRouter */ = {
 			isa = PBXGroup;
 			children = (
+				A88BBDD224A1F5CC00635D5F /* NSObject+XCS.h */,
+				A88BBDD324A1F5CC00635D5F /* NSObject+XCS.m */,
 				2163186E243F698D00220547 /* XSRouter */,
 				A877A906219D06E60087B687 /* AppDelegate.h */,
 				A877A907219D06E60087B687 /* AppDelegate.m */,
@@ -316,6 +321,7 @@
 				21EAF87C2359F8B10082B06C /* FifthVc.m in Sources */,
 				A861376121FABA450086D4D8 /* FourthVc.m in Sources */,
 				21631883243F698D00220547 /* XCSRouterUrlParser.m in Sources */,
+				A88BBDD424A1F5CC00635D5F /* NSObject+XCS.m in Sources */,
 				A877A908219D06E60087B687 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
